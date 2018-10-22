@@ -1,0 +1,11 @@
+C:\Users\JxOxL\sdg\back-end\BinarySearch\bin\Debug\netcoreapp2.1\BinarySearch.deps.json
+C:\Users\JxOxL\sdg\back-end\BinarySearch\bin\Debug\netcoreapp2.1\BinarySearch.runtimeconfig.json
+C:\Users\JxOxL\sdg\back-end\BinarySearch\bin\Debug\netcoreapp2.1\BinarySearch.runtimeconfig.dev.json
+C:\Users\JxOxL\sdg\back-end\BinarySearch\bin\Debug\netcoreapp2.1\BinarySearch.dll
+C:\Users\JxOxL\sdg\back-end\BinarySearch\bin\Debug\netcoreapp2.1\BinarySearch.pdb
+C:\Users\JxOxL\sdg\back-end\BinarySearch\obj\Debug\netcoreapp2.1\BinarySearch.csprojAssemblyReference.cache
+C:\Users\JxOxL\sdg\back-end\BinarySearch\obj\Debug\netcoreapp2.1\BinarySearch.csproj.CoreCompileInputs.cache
+C:\Users\JxOxL\sdg\back-end\BinarySearch\obj\Debug\netcoreapp2.1\BinarySearch.AssemblyInfoInputs.cache
+C:\Users\JxOxL\sdg\back-end\BinarySearch\obj\Debug\netcoreapp2.1\BinarySearch.AssemblyInfo.cs
+C:\Users\JxOxL\sdg\back-end\BinarySearch\obj\Debug\netcoreapp2.1\BinarySearch.dll
+C:\Users\JxOxL\sdg\back-end\BinarySearch\obj\Debug\netcoreapp2.1\BinarySearch.pdb
