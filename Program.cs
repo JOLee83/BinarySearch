@@ -13,7 +13,6 @@ namespace BinarySearch
       int Count = 1;
       var Loop = true;
       while (Loop == true)
-
       {
         Random rdm = new Random();
         int nbr = rdm.Next(Min, Max);
@@ -29,21 +28,26 @@ namespace BinarySearch
         {
           Min = nbr + 1;
           Count = Count + 1;
-
         }
-
         if (Answer == "Lower")
         {
           Max = nbr - 1;
           Count = Count + 1;
-
         }
         if (Answer == "Yes")
         {
           Console.WriteLine("Your Number is " + nbr + "! It Took " + Count + " Guesses.");
-          Console.ReadLine();
-          Loop = false;
-          //   return;
+          Console.WriteLine("Play Again? (Yes or No)");
+
+          string input2 = Console.ReadLine();
+          if (input2 == "Yes")
+          {
+            Main(args);
+          }
+          if (input2 == "No")
+          {
+            Loop = false;
+          }
         }
         if (Answer == "")
         {
