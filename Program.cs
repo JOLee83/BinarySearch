@@ -14,42 +14,52 @@ namespace BinarySearch
       var Loop = true;
       while (Loop == true)
       {
+        if (Max < Min)
+        {
+          Console.WriteLine("Liar");
+          Console.ReadLine();
+          return;
+
+        }
         Random rdm = new Random();
         int nbr = rdm.Next(Min, Max);
         Console.WriteLine("Is your Number " + nbr + "? (Higher? Lower? Yes!)");
         string Answer = Console.ReadLine();
-        if (Max == Min || Min == Max)
-        {
-          Console.WriteLine("Liar");
-          Console.ReadLine();
-          Loop = false;
-        }
+
         if (Answer == "Higher")
         {
           Min = nbr + 1;
           Count = Count + 1;
         }
-        if (Answer == "Lower")
+        else if (Answer == "Lower")
         {
           Max = nbr - 1;
           Count = Count + 1;
         }
-        if (Answer == "Yes")
+        else if (Answer == "Yes")
         {
-          Console.WriteLine("Your Number is " + nbr + "! It Took " + Count + " Guesses.");
-          Console.WriteLine("Play Again? (Yes or No)");
-
+          if (Count == 1)
+          {
+            Console.WriteLine("Your Number is " + nbr + "! It Took 1 Guess.");
+            Console.WriteLine("Play Again? (Yes or No)");
+          }
+          if (Count > 1)
+          {
+            Console.WriteLine("Your Number is " + nbr + "! It Took " + Count + " Guesses.");
+            Console.WriteLine("Play Again? (Yes or No)");
+          }
           string input2 = Console.ReadLine();
           if (input2 == "Yes")
           {
+            Console.Clear();
             Main(args);
           }
-          if (input2 == "No")
+          else
           {
-            Loop = false;
+            return;
           }
         }
-        if (Answer == "")
+        else
         {
           return;
         }
