@@ -6,6 +6,7 @@ namespace BinarySearch
   {
     static void Main(string[] args)
     {
+      Console.Clear();
       Console.WriteLine("Think of a number between 1 and 100. Ready? (Press Enter)");
       Console.ReadLine();
       int Max = 100;
